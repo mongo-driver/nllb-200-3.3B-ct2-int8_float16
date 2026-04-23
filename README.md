@@ -73,18 +73,22 @@ Benchmark environment:
 Quality snapshots:
 
 1. en->fa  
+Input (EN): `In the Golang programming language, we can use defer to execute code at the end of a function.`  
 HF: `در زبان برنامه نویسی گولانگ گولانگ، ما می توانیم از defer استفاده کنیم تا کد را در پایان تابع اجرا کنیم.`  
 CT2: `در زبان برنامه نویسی Golang، ما می توانیم از defer برای اجرای کد در پایان یک تابع استفاده کنیم.`
 
 2. en->fa  
+Input (EN): `Artificial intelligence is transforming the world.`  
 HF: `هوش مصنوعی هوش مصنوعی در حال تغییر جهان است`  
 CT2: `هوش مصنوعی در حال تغییر جهان است.`
 
 3. en->fa  
+Input (EN): `Machine learning models require large amounts of data to train effectively.`  
 HF: `مدل های یادگیری ماشینی مدل های یادگیری ماشین ماشین مدل های یادگیری یادگیری ماشین ماشین نیاز به مقدار زیادی از داده برای آموزش به طور موثر نیاز به داده های بزرگ برای آموزش موثر. .`  
 CT2: `مدل های یادگیری ماشین به مقادیر زیادی از داده ها برای آموزش موثر نیاز دارند.`
 
 4. fa->en  
+Input (FA): `پردازش زبان طبیعی یکی از شاخه های مهم هوش مصنوعی است.`  
 HF: `Natural Language Processing (NLP) is one of the most important branches of AI.`  
 CT2: `Natural language processing is one of the important branches of artificial intelligence.`
 
