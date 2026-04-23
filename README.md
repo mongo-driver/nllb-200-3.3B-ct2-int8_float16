@@ -81,6 +81,8 @@ HF (FA):
 CT2 (FA):  
 <div dir="rtl">در زبان برنامه نویسی Golang، ما می توانیم از defer برای اجرای کد در پایان یک تابع استفاده کنیم.</div>
 
+---
+
 2. en->fa  
 Input (EN):  
 <div dir="ltr">Artificial intelligence is transforming the world.</div>  
@@ -89,6 +91,8 @@ HF (FA):
 CT2 (FA):  
 <div dir="rtl">هوش مصنوعی در حال تغییر جهان است.</div>
 
+---
+
 3. en->fa  
 Input (EN):  
 <div dir="ltr">Machine learning models require large amounts of data to train effectively.</div>  
@@ -96,6 +100,8 @@ HF (FA):
 <div dir="rtl">مدل های یادگیری ماشینی مدل های یادگیری ماشین ماشین مدل های یادگیری یادگیری ماشین ماشین نیاز به مقدار زیادی از داده برای آموزش به طور موثر نیاز به داده های بزرگ برای آموزش موثر. .</div>  
 CT2 (FA):  
 <div dir="rtl">مدل های یادگیری ماشین به مقادیر زیادی از داده ها برای آموزش موثر نیاز دارند.</div>
+
+---
 
 4. fa->en  
 Input (FA):  
