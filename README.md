@@ -17,11 +17,14 @@ languages:
 # NLLB-200 3.3B CTranslate2 int8_float16 Bundle
 
 This folder contains an optimized CTranslate2 build of `facebook/nllb-200-3.3B` plus helper scripts.
+It is focused on fast, high-quality English to Persian (`en->fa`) and Persian to English (`fa->en`) translation.
 
 ## Model link
 
 - Hugging Face model: https://huggingface.co/mohamadpk/nllb-200-3.3B-ct2-int8_float16
 - GitHub version of this repo excludes `model.bin` to keep repository size manageable.
+
+Keywords: `english to persian translation`, `persian to english translation`, `en fa`, `fa en`, `farsi translation`, `NLLB`, `CTranslate2`
 
 ## File details
 
