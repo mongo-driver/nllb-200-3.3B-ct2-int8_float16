@@ -22,6 +22,7 @@ It is focused on fast, high-quality English to Persian (`en->fa`) and Persian to
 ## Model link
 
 - Hugging Face model: https://huggingface.co/mohamadpk/nllb-200-3.3B-ct2-int8_float16
+- GitHub repo: https://github.com/mongo-driver/nllb-200-3.3B-ct2-int8_float16
 - GitHub version of this repo excludes `model.bin` to keep repository size manageable.
 
 Keywords: `english to persian translation`, `persian to english translation`, `en fa`, `fa en`, `farsi translation`, `NLLB`, `CTranslate2`
@@ -73,24 +74,36 @@ Benchmark environment:
 Quality snapshots:
 
 1. en->fa  
-Input (EN): `In the Golang programming language, we can use defer to execute code at the end of a function.`  
-HF: `در زبان برنامه نویسی گولانگ گولانگ، ما می توانیم از defer استفاده کنیم تا کد را در پایان تابع اجرا کنیم.`  
-CT2: `در زبان برنامه نویسی Golang، ما می توانیم از defer برای اجرای کد در پایان یک تابع استفاده کنیم.`
+Input (EN):  
+<div dir="ltr">In the Golang programming language, we can use defer to execute code at the end of a function.</div>  
+HF (FA):  
+<div dir="rtl">در زبان برنامه نویسی گولانگ گولانگ، ما می توانیم از defer استفاده کنیم تا کد را در پایان تابع اجرا کنیم.</div>  
+CT2 (FA):  
+<div dir="rtl">در زبان برنامه نویسی Golang، ما می توانیم از defer برای اجرای کد در پایان یک تابع استفاده کنیم.</div>
 
 2. en->fa  
-Input (EN): `Artificial intelligence is transforming the world.`  
-HF: `هوش مصنوعی هوش مصنوعی در حال تغییر جهان است`  
-CT2: `هوش مصنوعی در حال تغییر جهان است.`
+Input (EN):  
+<div dir="ltr">Artificial intelligence is transforming the world.</div>  
+HF (FA):  
+<div dir="rtl">هوش مصنوعی هوش مصنوعی در حال تغییر جهان است</div>  
+CT2 (FA):  
+<div dir="rtl">هوش مصنوعی در حال تغییر جهان است.</div>
 
 3. en->fa  
-Input (EN): `Machine learning models require large amounts of data to train effectively.`  
-HF: `مدل های یادگیری ماشینی مدل های یادگیری ماشین ماشین مدل های یادگیری یادگیری ماشین ماشین نیاز به مقدار زیادی از داده برای آموزش به طور موثر نیاز به داده های بزرگ برای آموزش موثر. .`  
-CT2: `مدل های یادگیری ماشین به مقادیر زیادی از داده ها برای آموزش موثر نیاز دارند.`
+Input (EN):  
+<div dir="ltr">Machine learning models require large amounts of data to train effectively.</div>  
+HF (FA):  
+<div dir="rtl">مدل های یادگیری ماشینی مدل های یادگیری ماشین ماشین مدل های یادگیری یادگیری ماشین ماشین نیاز به مقدار زیادی از داده برای آموزش به طور موثر نیاز به داده های بزرگ برای آموزش موثر. .</div>  
+CT2 (FA):  
+<div dir="rtl">مدل های یادگیری ماشین به مقادیر زیادی از داده ها برای آموزش موثر نیاز دارند.</div>
 
 4. fa->en  
-Input (FA): `پردازش زبان طبیعی یکی از شاخه های مهم هوش مصنوعی است.`  
-HF: `Natural Language Processing (NLP) is one of the most important branches of AI.`  
-CT2: `Natural language processing is one of the important branches of artificial intelligence.`
+Input (FA):  
+<div dir="rtl">پردازش زبان طبیعی یکی از شاخه های مهم هوش مصنوعی است.</div>  
+HF (EN):  
+<div dir="ltr">Natural Language Processing (NLP) is one of the most important branches of AI.</div>  
+CT2 (EN):  
+<div dir="ltr">Natural language processing is one of the important branches of artificial intelligence.</div>
 
 ## Attribution
 
